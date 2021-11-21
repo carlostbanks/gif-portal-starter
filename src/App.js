@@ -1,8 +1,8 @@
-import twitterLogo from './assets/twitter-logo.svg';
 import React, { useEffect } from 'react';
+import twitterLogo from './assets/twitter-logo.svg';
 import './App.css';
 
-// Constants
+// Change this up to be your Twitter if you want.
 const TWITTER_HANDLE = '_buildspace';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
@@ -43,7 +43,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🖼 GIF Portal - by: Carlos Banks</p>
+          <p className="header">🖼 GIF Portal</p>
           <p className="sub-text">
             View your GIF collection in the metaverse ✨
           </p>
